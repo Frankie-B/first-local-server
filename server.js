@@ -15,6 +15,13 @@ app.get('/about', function(req, res) {
   );
 });
 
+// Hobbies route
+app.get('/hobbies', function(req, res) {
+  res.send(
+    'Things i like other than coding, include, cooking, playing the guitar and reading.'
+  );
+});
+
 // Contact me route
 app.get('/contact', function(req, res) {
   res.send('Contact me at frankie@gmail.com');
